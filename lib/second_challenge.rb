@@ -7,9 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-  full_list = groceries[:dairy].values
-  full_list.concat(groceries[:vegetable].values)
-  full_list.concat(groceries[:meat].values)
-  full_list.concat(groceries[:grains].values)
-  full_list
+  items = groceries.values
+  final_list = []
+  items.each do |arr|
+    final_list
+  end
 end
